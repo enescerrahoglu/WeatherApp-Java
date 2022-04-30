@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="@drawable/card_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:clickable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/dayNameTextView"
+                android:text="Sunday"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/avgHumidityTextView"
+                android:text="65"
+                android:ems="3"
+                android:drawableLeft="@drawable/ic_humidity"
+                android:textSize="14dp"
+                android:textColor="@color/color1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAlignment="textStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="RtlCompat" />
+
+            <ImageView
+                android:id="@+id/maxTempImageView"
+                android:layout_marginLeft="5dp"
+                android:padding="2dp"
+                android:src="@drawable/d1000"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+
+            <TextView
+                android:id="@+id/maxTempTextView"
+                android:text="20°"
+                android:ems="2"
+                android:textSize="18dp"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/minTempImageView"
+                android:layout_marginLeft="10dp"
+                android:padding="2dp"
+                android:src="@drawable/n1000"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+
+            <TextView
+                android:id="@+id/minTempTextView"
+                android:text="11°"
+                android:ems="2"
+                android:textSize="18dp"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
