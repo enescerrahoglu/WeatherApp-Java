@@ -1,4 +1,4 @@
-# WeatherApp 🌡️☀️🌙🌨️🌤️🌧️❄️☁️
+#☀️ WeatherApp 🌙
 
 
 
