@@ -1,4 +1,5 @@
-<h3>☀️ WeatherApp 🌙</h3>
+<h3>☀️ WeatherApp 🌙![weatherapp_logo_icon](https://user-images.githubusercontent.com/76053138/166139075-96518e9e-084a-4bbb-9739-80d57629f7cb.png)</h3>
+
 
 https://user-images.githubusercontent.com/76053138/166113313-274e1c8b-d7c2-402f-8fa7-ed58a4280115.mp4
 
